@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+a { color: #86b7ff; text-decoration: none; }
+.card { background: #121935; border: 1px solid #1e2748; border-radius: 12px; padding: 16px; }
+.button { background: #3b82f6; color: white; border: none; border-radius: 8px; padding: 10px 14px; cursor: pointer; }
+.button.secondary { background: #1f2937; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
